@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>任务三：三栏式布局</title>
+        <style>
+            .container{
+                background-color: #eee;
+                border: 1px #999 solid;
+                padding: 20px;
+                overflow: auto;
+            }
+            .team,.teamIntroduction,.teamMember{
+                background-color: white;
+                padding:20px;
+                border: 1px #999 solid;
+            }
+            .team{
+                float: left;
+                width:200px;
+                border: 1px #999 solid;
+            }
+            .teamMember{
+                float: right;
+                border: 1px #999 solid;
+                width:120px;
+            }
+            .teamIntroduction{
+                margin-left: 262px;
+                margin-right: 182px;
+            }
+            .teamLogo{
+                float: left;
+                height:80px;
+                width:80px;
+                border: 1px #999 solid;
+            }
+            .teamName{
+                text-align: center;
+                margin:0;
+            }
+            .avatar{
+                width: 80px;
+                height: 80px;
+                border: 1px #999 solid;
+                margin-bottom: 20px;
+                margin-left: 18px;
+            }
+            .avatar:last-of-type{
+                 margin: 0 ;
+                 margin-left: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="team">
+                <div class="teamLogo"></div>
+                <p class="teamName">团队名称</p>
+            </div>
+            <div class="teamMember">
+                <div class="avatar"></div>
+                <div class="avatar"></div>
+                <div class="avatar"></div>
+                <div class="avatar"></div>
+            </div>
+            <div class="teamIntroduction">
+                <p>团队介绍</p>
+            </div>
+        </div>
+        
+    </body>
+</html>

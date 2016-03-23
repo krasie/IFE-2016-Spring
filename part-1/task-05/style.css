@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei";
+}
+header{
+    padding:0 3%;
+    height: 70px;
+    background-color: #333; 
+}
+header #logo{
+    float: left;
+    background: url(bd_logo.jpg) no-repeat;
+    background-size:  100%  ;
+    height: 70px;
+    width: 200px;
+}
+header .nav{
+    float: right;
+}
+.reg-left{
+    text-align: right;
+    float: left;
+    width:120px;
+    margin-right: 5px;
+}
+.reg-right{
+    margin: 10px 0;
+   
+}
+.reg-right p{
+    color: #aaa;
+    font-size: 12px;
+    padding-left:  130px;
+}
+.sub{
+    width: 100%;
+    height: 30px;
+    background-color: #35d;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+}
+header .nav>li{
+    list-style: none;
+    display: inline;
+    line-height: 70px;
+    padding:0 5px;
+}
+header .nav>li>a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    background-color: #dedede;
+    padding:0 3%;
+    overflow: auto;
+}
+.box{
+    background-color: #fff;
+    overflow: auto;
+    margin: 10px 400px 10px 0;
+    padding:20px;
+    box-shadow: 0 0 2px #333;
+}
+.box>h1{
+    font-size: 24px;
+    padding: 10px 0;
+}
+.box>h2{
+    font-size: 18px;
+    color: #777;
+    padding: 10px 0;
+}
+.box>img{
+    width: 50%;
+}
+.box>p{
+    line-height: 26px;
+    letter-spacing: 1px;
+    text-indent: 2em;
+}
+.box>ul,.box>ol{
+    padding: 10px 0;
+}
+.box>ul>li{
+    list-style: none;
+    text-indent: 2em;
+}
+.box>ol{
+    margin-left: 2em; 
+}
+.box>.author-time{
+    font-size: 14px;
+    color: #777;
+    text-indent: 0;
+}
+.pic-box .pic{
+    border: #777 1px solid;
+    padding: 10px;
+    height: 120px;
+    width:120px;
+    float: left;
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+}
+.pic-box .pic img{
+    width: 100%;
+}
+.pic-box .pic p{
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 0;
+}
+.box .tab{
+    border-collapse: collapse;
+    border: 1px solid #aaa;
+    width: 100%;
+    
+}
+.box .tab thead{
+    background-color: #333;
+    color:#fff;
+}
+.box .tab tfoot{
+    background-color: #aaa;
+}
+.box .tab td,.box .tab th{
+    text-align: left;
+    padding:5px;
+    border: #aaa 1px  solid;
+}
+.right{
+    background-color: #fff;
+    box-shadow: 0 0 2px #333;
+    float: right;
+    width: 350px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.right h1{
+    font-size: 18px;
+    padding-left: 10px;
+    border-left: #aaa 3px solid;
+}
+footer{
+    height: 70px;
+    line-height: 70px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}

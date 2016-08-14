@@ -1,0 +1,460 @@
+body,ul{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #ededed;
+    font-family: "Microsoft YaHei";
+    font-size: 14px; 
+    min-width: 1280px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.top{
+    height:55px;
+    width: 100%;
+    background-color: #228ac1;
+    padding:0 50px;
+    box-sizing:border-box;
+}
+.top .logo{
+    padding-top: 10px;
+    float:left;
+}
+.top .right{
+    float:right;
+    width: 450px;
+}
+.top .right .search{
+    float:left;
+}
+.top .right .search input{
+    margin-top: 12px;
+    height: 30px;
+    width: 300px;
+    border: 0;
+    border-radius: 30px;
+    padding-left: 30px;
+    background: url(../img/search.png) no-repeat center left #fff;
+    background-position-x: 5px;
+    background-size: 20px;
+} 
+.top .right .login{
+    float: left;
+    color: #fff;
+    padding-left: 45px;
+    position: relative;
+    line-height: 25px;
+}
+.top .right .login img{
+    width: 25px;
+    position: absolute;
+    left: 20px;
+    top:18px;
+}
+.menu{
+    width: 250px;
+    min-height: 1300px; 
+    background-color: #2b2e3d;
+    float: left;
+}
+.menu .user{
+    height: 180px;
+}
+.menu .user .user-section{
+    height: 50px;
+    padding: 30px 20px 0px 40px;;
+}
+.menu .user .user-section img{
+    width: 50px;
+    border-radius: 50px;
+    padding: 3px;
+    border: 2px solid #d8d8d8;
+    float: left;
+}
+.menu .user .user-section p{
+    color: #fff;
+    font-weight: 20px;
+    margin: 0;
+    line-height: 60px;
+    padding-left: 20px;
+    float: left;
+}
+.menu .user .fans{
+    padding-left: 25px;
+}
+.menu .user .fans p{
+    color: #888;
+    float: left;
+    padding: 0 30px;
+}
+.menu .user .fans img{
+    float: left;
+    padding-top: 18px;
+}
+.menu .list ul a{
+    color: #888;
+}
+.menu .list ul li{
+    padding:10px 0 10px 30px;
+}
+.menu .list .active{
+    background-color: #373d4d;
+}
+.menu .list i{
+    margin-right: 10px;
+    font-size: 16px; 
+}
+.menu .list .on{
+    color: #fff;
+}
+.main{
+    width: 100%;
+    padding-left:250px;
+    box-sizing: border-box;
+}
+.main .nav {
+    background: #fff;
+    width: 100%;
+}
+.main .nav p{
+    margin: 0;
+    width: 100%;
+    color: #aaa;
+    padding: 10px 0 10px 10px;
+    box-sizing: border-box;
+}
+.main .nav p span{
+    color:  #228ac1;
+}
+.main .m-container{
+    margin: 40px;
+}
+.main .m-container .search{
+    background: #fff;
+    height: 100px;
+    width: 100%;
+    min-width: 800px;
+}
+.main .m-container .search div{
+    float: left;
+}
+.main .m-container .search div p{
+    color: #888;
+    margin-left: 20px; 
+}
+.main .m-container .search select{
+    height:30px;
+    color: #373d4d;
+    font-family: "Microsoft YaHei";
+    font-size:14px;
+}
+.top-left-border{
+    border-top: #ccc solid 1px;
+    border-left: #ccc solid 1px;
+}
+.main .m-container .search button{
+    background: #388ac1;
+    width: 50px;
+    height: 30px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    margin: 30px 20px;
+    cursor:pointer;
+}
+.main .history{
+    height: 70px;
+    min-width: 960px;
+    margin-top: 10px;
+}
+.main .history div{
+    float: left;
+    margin-right: 5px;
+}
+.main .history .left ,.main .history .right{
+    width: 30px;
+    height: 70px;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+.main .history .left i ,.main .history .right i{
+    line-height: 70px;
+    color: #888;
+}
+.main .history .left:hover,.main .history .right:hover{
+    background: #ccc;
+}
+.main .history .time{
+    width: 120px;
+    height: 70px;
+    background: #fff;
+    text-align: center;
+    position: relative;
+    cursor:pointer; 
+}
+.main .history .time:hover::after,.main .history .active::after{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    left: 0px;
+    top: 0px;
+    background: #00f;
+}
+.main .history .time p{
+    margin: 10px 0 0 0;
+}
+.main .history .time .money {
+    color: #ec6602;
+    font-size: 22px;
+}
+.main .history .time .money span{
+    font-size: 18px;
+    color: #888;
+}
+.main .history .title{
+    height: 70px;
+    width: 130px;
+    margin: 0;
+    background: url(../img/history.png) no-repeat 15px center  #fff ;
+    cursor: pointer;
+}
+.main .history .title p{
+     line-height: 70px;
+     margin: 0 0 0 60px ;
+     color: #888;
+}
+.main .volume{
+    margin-top: 20px;
+}
+.main .volume>div{
+    height: 80px;
+}
+.main .volume h3{
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+.main .volume>div>div{
+    float: left;
+    margin-right:35px ;
+    width: 210px;
+    height: 80px;
+    background-color: #fff;
+    position: relative;
+}
+.main .volume>div>div:last-child{
+    margin-right: 0;
+}
+.main .volume .div1{
+    border-left: #43b29d 2px solid; 
+}
+.main .volume .div2{
+    border-left: #ec6602 2px solid; 
+}
+.main .volume .div3{
+    border-left: #43b29d 2px solid; 
+}
+.main .volume .div4{
+    border-left: #d04b36 2px solid; 
+}
+.main .volume .pic{
+    width: 70px;
+    height: 60px;
+    float: right;
+    margin: 10px 10px 0 0 ;
+}
+.main .volume p{
+    position: absolute;
+    line-height: 30px;
+    margin: 10px 0 0 10px;
+}
+.main .volume p span{
+    color: #888;
+}
+.main .volume .div1 .pic{
+    background: #43b29d; 
+}
+.main .volume .div2 .pic{
+    background: #ec6602; 
+}
+.main .volume .div3 .pic{
+    background: #43b29d; 
+}
+.main .volume .div4 .pic{
+    background: #d04b36; 
+}
+.main .project>div{
+    height: 400px;
+    background: #fff;
+    float:left;
+}
+.main .project{
+    margin-top: 20px;
+    position:relative;
+    height: 450px;
+}
+.main .project .left{
+    width: 550px;
+}
+.main .project .right{
+    width: 353px;
+    margin-left: 50px;
+}
+.main .top-bar{
+    background: #f7f7f7;
+    height: 50px;
+    width: clac(100% - 20px);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;  
+    border-bottom: 1px solid #ccc;
+    line-height: 50px;
+    padding-left: 20px;
+    color: #888;
+    font-size: 16px;
+}
+.main .project ul{
+    padding-left: 30px;
+    position: absolute;
+    z-index: 30;
+}
+.main .project li{
+    float: left;
+    display: block;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+    margin: 20px 10px 0 0 ; 
+    background: #ccc;
+    left: 20px;
+    cursor: pointer;
+}
+.main .project  li:hover{
+    background: #fff;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+.main .project .label{
+    position: absolute;
+    height: 200px;
+    width: 488px;
+    margin-left: 30px;
+    margin-top: 50px;
+    z-index: 20;
+    background: #fff;
+}
+.main .project .label table,.main .project .label td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+.main .project .label table{
+    margin: 15px auto;
+}
+.main .project .label td{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.main .project .form{
+    overflow: hidden;
+    padding: 10px 0 0 50px;
+}
+.main .project .form p{
+    margin: 0;
+    line-height: 30px;
+}
+.main .project .form .left{
+    float: left;
+    width: 100px;
+    border-right: 1px #ccc solid;
+}
+.main .project .form .right{
+    padding-left: 20px;
+    float: right;
+    margin-left: 0px;
+    width: 182px;
+}
+.main .project .form .mid{
+    height: 61px;
+}
+.main .project .form .detail{
+    height: 100px;
+}
+.main .project .form .submit{
+    margin-top: 20px;
+}
+.main .project .form .submit p{
+    float: left;
+}
+.main .project .form .submit button{
+    background: #388ac1;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+    border: 0;
+    width: 50px;
+    height: 30px;
+    border-radius: 3px;
+    margin-right: 20px;
+    cursor:pointer;
+    float: right;
+}
+.main .project .form .submit input{
+    background: #ccc;
+    width: 14px;
+    height: 14px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    vertical-align: sub;
+    cursor: pointer;
+}
+.main .project .form .submit input:checked{
+    background: #ccc url(../img/gou.png) no-repeat center center;
+}
+.main .last .date{
+    height: 400px;
+    width: 400px;
+    background: #fff;
+}
+
+.w75{
+    width: 75px;
+}
+.w150{
+    width: 150px;
+}
+.w280{
+    width:280px;
+}
+.gray-border{
+    border: #ccc solid 1px;
+}
+.radius{
+    border-radius: 5px;
+}
+.clear{
+    clear: both;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.gray{
+    color: #ccc;
+}
+.btm-border{
+    border-bottom: 1px #ccc solid;
+}

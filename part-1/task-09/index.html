@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>任务九：使用HTML/CSS实现一个复杂页面</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="logo">
+                <img src="img/logo-icon.png" alt="">
+            </div>
+            <div class="right">
+                <div class="search">
+                    <input type="text">
+                </div>
+                <a href="#">
+                    <div class="login">
+                        <img src="img/login.png" alt="">
+                        <p>登陆</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="user">
+                <div class="user-section">
+                    <img src="./img/user.png" alt="">
+                    <p>ABC123</p>
+                </div>
+                <div class="fans">
+                    <p>110<br><span>收藏</span></p>
+                    <img src="./img/mid-line.png" alt="">
+                    <p>313<br><span>粉丝</span></p>
+                </div>
+            </div>
+            <div class="list">
+                <ul>
+                    <li class="active ">
+                        <a href="" class="on"><i class="fa fa-table fa-lg"></i>个人报表</a>
+                        <ul class="">
+                            <li><a href=""><i class="fa fa-folder fa-lg"></i>文件一</a></li>
+                            <li>
+                                <a href="" class="on"><i class="fa fa-folder fa-lg"></i>文件二</a>
+                                <ul>
+                                    <li><a href="" class="on"><i class="fa fa-file-text fa-lg"></i>文档1</a></li>
+                                    <li><a href=""><i class="fa fa-file-text fa-lg"></i>文档1</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href=""><i class="fa fa-folder fa-lg"></i>文件三</a></li>
+                        </ul>
+                    </li>
+                    <li><a href=""><i class="fa fa-heart fa-lg"></i>个人收藏</a></li>
+                    <li><a href=""><i class="fa fa-share fa-lg"></i>我的分享</a></li>
+                    <li><a href=""><i class="fa fa-photo fa-lg"></i>图库</a></li>
+                    <li><a href=""><i class="fa fa-area-chart fa-lg"></i>成长记录</a></li>
+                    <li><a href=""><i class="fa fa-user fa-lg"></i>账号信息</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="nav">   
+                <p>c站 / 个人文档 / 文件一 / <span>文档一</span></p>
+            </div>
+            <div class="m-container">
+                <div class="search gray-border">
+                    <div>
+                        <p>查询项
+                            <select name="" id="" class="w75">
+                                <option value="">第一项</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            买方
+                            <select name="" id="" class="w150">
+                                <option value="">小A</option>
+                            </select>
+                        </p>
+                        <p>卖方 
+                            <select name="" id="" class="w150">
+                                <option value="">小C</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            日期
+                            <select name="" id="" class="w150">
+                                <option value="">2016-04-01</option>
+                            </select>
+                            总耗时
+                            <select class="w75">
+                                <option value="">8天</option>
+                            </select>
+                        </p>
+                        <p>
+                            人数
+                            <select name="" id="" class="w75">
+                                <option value="" >10人</option>
+                            </select>
+                            成交项
+                            <select name="" id="" class="w150">
+                                <option value="">10项</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div>
+                        <button>搜索</button>
+                    </div>
+                </div>
+                <div class="history ">
+                    <div class="left top-left-border"><i class="fa fa-chevron-left fa-lg"></i></div>
+                        <div class="time top-left-border">
+                            <p>10:00am</p>
+                            <p class="money"><span>￥</span>1200</p>
+                        </div>
+                        <div class="time top-left-border active">
+                            <p>11:00am</p>
+                            <p class="money"><span>￥</span>1300</p>
+                        </div>
+                        <div class="time top-left-border">
+                            <p>12:00pm</p>
+                            <p class="money"><span>￥</span>1400</p>
+                        </div>
+                        <div class="time top-left-border">
+                            <p>01:00pm</p>
+                            <p class="money"><span>￥</span>1500</p>
+                        </div>
+                        <div class="time top-left-border">
+                            <p>02:00pm</p>
+                            <p class="money"><span>￥</span>1600</p>
+                        </div>
+                        <div class="time top-left-border">
+                            <p>03:00pm</p>
+                            <p class="money"><span>￥</span>1700</p>
+                        </div>
+                    <div class="right top-left-border"><i class="fa fa-chevron-right fa-lg"></i></div>
+                    <div class="title top-left-border">
+                        <p>历史搜索</p>
+                    </div>
+                </div>
+                <div class="volume">
+                    <h3>2016年4月份统计</h3>
+                    <div>
+                        <div class="div1 gray-border">
+                            <p>112211<br><span>成交量</span></p>
+                            <div class="pic"></div>
+                        </div>
+                        <div class="div2 gray-border">
+                            <p>112211<br><span>成交量</span></p>
+                            <div class="pic"></div>
+                        </div>
+                        <div class="div3 gray-border">
+                            <p>112211<br><span>成交量</span></p>
+                            <div class="pic"></div>
+                        </div>
+                        <div class="div4 gray-border">
+                            <p>112211<br><span>成交量</span></p>
+                            <div class="pic"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="left radius gray-border ">
+                        <div class="top-bar">
+                            第一项目
+                        </div>
+                        <ul class="clearfix">
+                            <li class="checked">项目一</li>
+                            <li>项目一</li>
+                            <li>项目一</li>
+                            <li>项目一</li>
+                            <li>项目一</li>
+                        </ul>
+                        <div class="label gray-border">
+                            <table cellpading='0'>
+                                <tr>
+                                    <td>购买材料一</td>
+                                    <td>购买材料一</td>
+                                    <td>购买材料一</td>
+                                    <td>购买材料一</td>
+                                </tr>
+                                <tr>
+                                    <td>购买材料一</td>
+                                    <td>购买材料一</td>
+                                    <td>购买材料一</td>
+                                    <td>购买材料一</td>
+                                </tr>
+                                <tr>
+                                    <td>购买材料一</td>
+                                    <td>购买材料一</td>
+                                    <td>购买材料一</td>
+                                    <td>购买材料一</td>
+                                </tr>
+                                <tr>
+                                    <td>购买材料一</td>
+                                    <td>购买材料一</td>
+                                    <td>购买材料一</td>
+                                    <td>购买材料一</td>
+                                </tr>
+                                <tr>
+                                    <td>购买材料一</td>
+                                    <td>购买材料一</td>
+                                    <td>购买材料一</td>
+                                    <td>购买材料一</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="right radius gray-border">
+                        <div class="top-bar">
+                            第一项目
+                        </div>
+                        <div class="form ">
+                            <form action="">
+                                <p class="gray">标题</p>
+                                <p class="btm-border w280">项目三报表</p>
+                                <div class="mid">
+                                    <div class="left btm-border">
+                                        <p class="gray">价格</p>
+                                        <p class="">￥158</p>
+                                    </div>
+                                    <div class="right btm-border ">
+                                        <p class="gray">负责人</p>
+                                        <p>小A</p>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <p class="gray">详细描述</p>
+                                    <p class="detail btm-border w280">该项目目前的负责人时是……</p>
+                                </div>
+                                <div class="submit">
+                                    <p><input type="checkbox" checked class="checkbox">遵守保密协议</p>
+                                    <button>搜索</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="last">
+                    <div class="date radius gray-border">
+                        <div class="top-bar">日历</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

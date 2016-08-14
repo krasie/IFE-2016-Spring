@@ -1,0 +1,165 @@
+body,ul{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.top{
+    height: 50px;
+    width: 100%;
+    background-color: #91d4da;
+    color:#fff;
+    text-align: center;
+    position: relative;
+}
+.top>p{
+    position: absolute;
+    left: 20px;
+    top: 0;
+}
+.top img{
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 20px;
+}
+.top>h3{
+    line-height: 50px;
+}
+.nav{
+    height: 30px;
+}
+.nav .menu{
+    text-align: center;
+}
+.nav .menu li{
+    float: left;
+    color: #333;
+    width: 20%;
+    padding: 10px 0;
+}
+.nav .menu .active{
+    border-bottom: 2px solid #91d4da;
+}
+.banner img{
+    width: 100%;
+}
+.label{
+    height: 90px;
+    text-align: center;
+}
+.label .label-menu li{
+    width: 25%;
+    float: left;
+    color:#333;
+    padding: 10px 5px;
+    box-sizing: border-box;
+}
+.label .label-menu li img{
+    width: 60%
+}
+.label1{
+    text-align: center;
+    padding-top:5px; 
+    width: 100%;
+    overflow:hidden;
+}
+.label1 .label1-menu li{
+    width: 33.3333%;
+    float: left;
+    color: #333;
+    padding: 10px;
+    box-sizing: border-box;
+    border-right: 1px solid #eee; 
+}
+.label1 .label1-menu li img{
+    width: 100%;
+}
+.label1 .label1-menu li h6{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.label1 .label1-menu li p{
+    margin: 0;
+}
+.module1{
+     overflow:hidden;
+     height: 260px;
+     border-top:15px solid #eee; 
+}
+.module1 .tittle{
+    padding: 10px 0 0 8%; 
+}
+.module1 .cell{
+    padding: 10px 20px;
+    height: 80px;
+}
+.module1 .cell .pic{
+    float:left;
+}
+.module1  .cell .pic img{
+    height: 80px;
+}
+.module1 .cell .right li{
+    float: left;
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    margin: 5px;
+    background-color: #eee;
+    line-height: 30px;
+}
+.module2{
+    border-top:15px solid #eee; 
+}
+.module2 .list-cell {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-top: 1px solid #eee;
+}
+.module2 .list-cell .pic img{
+    height: 80px;
+    float: left;
+}
+.module2 .list-cell .right{
+    float: right;
+    width: calc(100% - 160px);
+    position: relative;
+    height: 80px;
+}
+.module2 .list-cell .right .little{
+    font-size: 16px;
+}
+.module2 .list-cell .right .d{
+    position: absolute;
+    bottom: 0;
+    color: #444;
+}
+.module2 .list-cell2{
+    padding: 10px 20px;
+    border-top: 1px solid #eee;
+}
+.module2 .list-cell2 .little{
+    padding: 0;
+    margin: 0;
+}
+.module2 .list-cell2 .pic img{
+    width: 30%;
+    float: left;
+    padding: 1%;
+}
+.module2 .list-cell2 .d{
+    color: #444;
+}
+.cleanfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}

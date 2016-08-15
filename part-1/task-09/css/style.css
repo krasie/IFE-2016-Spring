@@ -300,7 +300,7 @@ ul{
 .main .project{
     margin-top: 20px;
     position:relative;
-    height: 450px;
+    height: 430px;
 }
 .main .project .left{
     width: 550px;
@@ -424,11 +424,85 @@ ul{
     background: #ccc url(../img/gou.png) no-repeat center center;
 }
 .main .last .date{
+    float:left;
     height: 400px;
     width: 400px;
     background: #fff;
 }
+.main .date .date-select{
+    padding:10px 20px 0 20px;
+}
+.main .date .date-select select{
+    height: 30px;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+.main .date .tab{
+    text-align: center;
+    padding: 10px 30px;
+}
+.main .date .tab td{
+    width: 45px;
+    height: 40px;
+    position: relative;
+}
+.main .date .tab p{
+    margin: 0;
+}
+.main .date .tab table{
+    border-collapse: collapse;
+}
+.main .date .tab .title{
+    border-top: 1px solid #00f;
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+}
+.main .date .tab .selected{
+    border:#f60 solid 1px;
+}
+.main .date .tab td:hover::after{
+    content: '';
+    border:#f60 solid 1px;
+    width: 45px;
+    height: 42px;
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.main .rank {
+    float: left;
+    height: 400px;
+    width: 510px;
+    margin-left: 40px;
+    background: #fff;
+}
+.main .rank table{
+    border-collapse: collapse;
+    width: 400px;
+    text-align: center;
+    margin: 20px auto;
+}
+.main .rank table td{
+    height: 25px;
+    border: 1px solid #ccc;
+}
+.main .rank table progress{
+    border: 0;
+    background: #ccc;
+    color: #3AA1E4;
+    display: inline-block;
+    width: 170px;
+    height: 5px;
+    vertical-align: middle;
+}
 
+
+.red{
+    color: #f00!important;
+}
+.w50{
+    width: 50px;
+}
 .w75{
     width: 75px;
 }

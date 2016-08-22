@@ -1,6 +1,7 @@
 body,ul{
     padding: 0;
     margin: 0;
+    font-family: 'Mircosoft YaHei';
 }
 ul{
     list-style: none;
@@ -149,6 +150,9 @@ ul{
 .module2 .list-cell2 .little{
     padding: 0;
     margin: 0;
+}
+.module2 .list-cell2 .pic{
+    height:90px;
 }
 .module2 .list-cell2 .pic img{
     width: 30%;

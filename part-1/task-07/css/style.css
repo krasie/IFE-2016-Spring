@@ -5,6 +5,9 @@ body,li,ul{
 }
 a{text-decoration: none;}
 ul{list-style: none}
+.container{
+    min-width: 1300px;
+}
 .top{
     position: relative;
     margin: 0px 60px;
